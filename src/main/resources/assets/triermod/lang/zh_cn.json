@@ -1,0 +1,19 @@
+{
+  "block.triermod.barrel_iron": "铁的桶",
+  "block.triermod.core_earth": "地球核心",
+  "block.triermod.magicrop": "魔力种植物",
+  "block.triermod.text_block": "测试方块",
+  "block.triermod.text_ore": "测试矿",
+  "block.triermod.text_ore_deepslate": "深层测试矿",
+  "entity.minecraft.villager.triermod.trier_master": "试验品大师",
+  "item.triermod.excalibur": "誓约胜利之剑",
+  "item.triermod.heptagram": "七芒星",
+  "item.triermod.magic_ball": "法球",
+  "item.triermod.magicrop_fruit": "魔力种",
+  "item.triermod.magicrop_seed": "魔力种种子",
+  "item.triermod.power_of_flora": "藤萝系甲",
+  "item.triermod.text_ingot": "测试锭",
+  "item.triermod.text_ore_raw": "粗测试矿",
+  "item.triermod.the_sword_of_fire": "烈焱剑",
+  "itemGroup.triertab": "测试"
+}

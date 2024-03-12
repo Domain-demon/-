@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "triermod:block/styx_block" }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "triermod:block/barrel_iron_bottom",
+    "side": "triermod:block/barrel_iron_side",
+    "top": "triermod:block/barrel_iron_top_open"
+  }
+}

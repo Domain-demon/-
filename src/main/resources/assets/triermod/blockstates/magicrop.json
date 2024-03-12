@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "age=0": { "model": "triermod:block/magicrop_stage0" },
+    "age=1": { "model": "triermod:block/magicrop_stage1" },
+    "age=2": { "model": "triermod:block/magicrop_stage2" },
+    "age=3": { "model": "triermod:block/magicrop_stage3" },
+    "age=4": { "model": "triermod:block/magicrop_stage4" },
+    "age=5": { "model": "triermod:block/magicrop_stage5" },
+    "age=6": { "model": "triermod:block/magicrop_stage6" }
+  }
+}

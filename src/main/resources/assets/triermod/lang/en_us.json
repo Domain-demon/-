@@ -1,0 +1,19 @@
+{
+  "block.triermod.barrel_iron": "barrel iron",
+  "block.triermod.core_earth": "core earth",
+  "block.triermod.magicrop": "magicrop plant",
+  "block.triermod.text_block": "text block",
+  "block.triermod.text_ore": "text ore",
+  "block.triermod.text_ore_deepslate": "deepslate text ore",
+  "entity.minecraft.villager.triermod.trier_master": "Trier Master",
+  "item.triermod.excalibur": "Excalibur",
+  "item.triermod.heptagram": "Heptagram",
+  "item.triermod.magic_ball": "magic ball",
+  "item.triermod.magicrop_fruit": "magicrop",
+  "item.triermod.magicrop_seed": "magicrop seed",
+  "item.triermod.power_of_flora": "Power of Flora",
+  "item.triermod.text_ingot": "text ingot",
+  "item.triermod.text_ore_raw": "raw text ore",
+  "item.triermod.the_sword_of_fire": "the_sword_of_fire",
+  "itemGroup.triertab": "Trier"
+}

@@ -1,0 +1,45 @@
+{
+  "record.hoyo":{
+    "category": "voice",
+    "subtitle": "triermod.subtitle.hoyo",
+    "sounds": [
+      {
+        "name": "triermod:record/hoyo",
+        "stream": true
+      }
+    ]
+  },
+
+  "seffect.bang.bam":{
+    "category": "voice",
+    "subtitle": "triermod.subtitle.bam",
+    "sounds": [
+      {
+        "name": "triermod:seffect/bang/bam",
+        "stream": true
+      }
+    ]
+  },
+
+  "seffect.ding.dinglingling":{
+    "category": "voice",
+    "subtitle": "triermod.subtitle.dinglingling",
+    "sounds": [
+      {
+        "name": "triermod:seffect/ding/dinglingling",
+        "stream": true
+      }
+    ]
+  },
+
+  "entity.villager.work_master":{
+    "category": "voice",
+    "subtitle": "triermod.subtitle.work_master",
+    "sounds": [
+      {
+        "name": "triermod:entity/villager/work_master",
+        "stream": true
+      }
+    ]
+  }
+}

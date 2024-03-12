@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 20,
+  "experience": 1,
+  "group": "text",
+  "ingredient": {
+    "item": "triermod:text_ore_raw"
+  },
+  "result": "triermod:text_ingot"
+}
