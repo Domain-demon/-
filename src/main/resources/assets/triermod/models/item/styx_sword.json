@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "triermod:item/the_sword_of_fire"
+    "layer0": "triermod:item/styx_sword"
   }
 }

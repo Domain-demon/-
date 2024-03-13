@@ -13,6 +13,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.ChestMenu;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.ContainerOpenersCounter;
 import net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity;
@@ -119,7 +120,7 @@ public class BarrelIronBlockEntity extends RandomizableContainerBlockEntity {
     }
 
     void updateBlockState(BlockState p_58607_, boolean b) {
-        this.level.setBlock(this.getBlockPos(), p_58607_.setValue(BarrelIronBlock.OPEN, Boolean.valueOf(b)), 3);
+        this.level.setBlock(this.getBlockPos(), p_58607_.setValue(BarrelIronBlock.OPEN, b), 3);
     }
 
 

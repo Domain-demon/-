@@ -2,7 +2,17 @@
   "replace": false,
   "values": [
     "triermod:text_ore",
+    "triermod:deepslate_text_ore",
     "triermod:text_block",
-    "triermod:text_ore_deepslate"
+    "triermod:raw_text_block",
+
+    "triermod:nurse",
+
+    "triermod:styx_ore",
+    "triermod:deepslate_styx_ore",
+    "triermod:styx_block",
+    "triermod:raw_styx_block"
+
+
   ]
 }

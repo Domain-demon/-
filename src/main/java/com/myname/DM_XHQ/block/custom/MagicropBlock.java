@@ -1,6 +1,6 @@
 package com.myname.DM_XHQ.block.custom;
 
-import com.myname.DM_XHQ.block.state.properties.BlockStateProperties;
+import com.myname.DM_XHQ.block.state.properties.ModBlockStateProperties;
 import com.myname.DM_XHQ.init.ModItem;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.BlockGetter;
@@ -20,7 +20,7 @@ public class MagicropBlock extends CropBlock {
     //加入一个属性，该属性用于表示作物的生长阶段，整数类型，最小值0，最大值6.
 
 //    public static final IntegerProperty AGE_6 = IntegerProperty.create("age", 0, 6);
-    public static final IntegerProperty AGE = BlockStateProperties.AGE_6;
+    public static final IntegerProperty AGE = ModBlockStateProperties.AGE_6;
 
     private static final VoxelShape[] SHAPE_BY_AGE = new VoxelShape[]{
             Block.box(0.0D, 0.0D, 0.0D, 16.0D, 2.0D, 16.0D),

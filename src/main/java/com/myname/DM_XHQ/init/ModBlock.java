@@ -12,7 +12,6 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
@@ -48,14 +47,8 @@ public class ModBlock {
 
 
     //普通块
-    public static final RegistryObject<Block> TEXT_BLOCK = registerBlock("text_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(3f).requiresCorrectToolForDrops()),
-            ModCreativeModeTab.TRIER_TAB);
 
 
-    public static final RegistryObject<Block> NURSE = registerBlock("nurse",
-            () -> new NurseBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3f).requiresCorrectToolForDrops()),
-            ModCreativeModeTab.TRIER_TAB);
 
 
 
@@ -69,26 +62,37 @@ public class ModBlock {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3f).requiresCorrectToolForDrops(),
                     UniformInt.of(3,7)),
             ModCreativeModeTab.TRIER_TAB);
-    public static final RegistryObject<Block> TEXT_ORE_DEEPSLATE = registerBlock("text_ore_deepslate",
+    public static final RegistryObject<Block> DEEPSLATE_TEXT_ORE = registerBlock("deepslate_text_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(4.5f).requiresCorrectToolForDrops(),
-            UniformInt.of(3,7)),
+                    UniformInt.of(3,7)),
             ModCreativeModeTab.TRIER_TAB);
+
+    public static final RegistryObject<Block> TEXT_BLOCK = registerBlock("text_block",
+            () -> new Block(BlockBehaviour.Properties.copy(IRON_BLOCK)),
+            ModCreativeModeTab.TRIER_TAB);
+
+    public static final RegistryObject<Block> RAW_TEXT_BLOCK = registerBlock("raw_text_block",
+            () -> new Block(BlockBehaviour.Properties.copy(RAW_IRON_BLOCK)),
+            ModCreativeModeTab.TRIER_TAB);
+
 
 
     public static final RegistryObject<Block> STYX_ORE = registerBlock("styx_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(DIAMOND_ORE)),
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(DIAMOND_ORE),
+                    UniformInt.of(3, 7)),
             ModCreativeModeTab.TRIER_TAB);
     public static final RegistryObject<Block> DEEPSLATE_STYX_ORE = registerBlock("deepslate_styx_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(DEEPSLATE_DIAMOND_ORE)),
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(DEEPSLATE_DIAMOND_ORE),
+                    UniformInt.of(3, 7)),
             ModCreativeModeTab.TRIER_TAB);
 
     public static final RegistryObject<Block> STYX_BLOCK = registerBlock("styx_block",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(ANCIENT_DEBRIS)),
+            () -> new Block(BlockBehaviour.Properties.copy(ANCIENT_DEBRIS)),
             ModCreativeModeTab.TRIER_TAB);
 
     public static final RegistryObject<Block> RAW_STYX_BLOCK = registerBlock("raw_styx_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .requiresCorrectToolForDrops().strength(5.0F, 6.0F)),
+            () -> new Block(BlockBehaviour.Properties.copy(DIAMOND_BLOCK)
+                    .strength(5.0F, 6.0F)),
             ModCreativeModeTab.TRIER_TAB);
 
 
@@ -101,9 +105,13 @@ public class ModBlock {
 
 
     //功能块
+    public static final RegistryObject<Block> NURSE = registerBlock("nurse",
+            () -> new NurseBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3f).requiresCorrectToolForDrops()),
+            ModCreativeModeTab.TRIER_TAB);
     public static final RegistryObject<Block> BARREL_IRON = registerBlock("barrel_iron",
             () -> new BarrelIronBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3f)),
             ModCreativeModeTab.TRIER_TAB);
+
 
     //工作块
     public static  final RegistryObject<Block> TRIER_BLOCK = registerBlock("trier_block",

@@ -4,7 +4,7 @@
   "experience": 1,
   "group": "text",
   "ingredient": {
-    "item": "triermod:text_ore_raw"
+    "item": "triermod:raw_text_ore"
   },
   "result": "triermod:text_ingot"
 }

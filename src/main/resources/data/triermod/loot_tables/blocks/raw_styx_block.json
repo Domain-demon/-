@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "triermod:styx_block"
+          "name": "triermod:raw_styx_block"
         }
       ]
     }

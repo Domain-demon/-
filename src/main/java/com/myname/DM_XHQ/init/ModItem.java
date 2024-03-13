@@ -42,7 +42,7 @@ public class ModItem {
 
 
     //粗矿
-    public static final RegistryObject<Item> TEXT_ORE_RAW = ITEMS.register("text_ore_raw",
+    public static final RegistryObject<Item> RAW_TEXT_ORE = ITEMS.register("raw_text_ore",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));
 
     public static final RegistryObject<Item> RAW_STYX_ORE = ITEMS.register("raw_styx_ore",
@@ -51,10 +51,10 @@ public class ModItem {
 
 
     //矿粒
-    public static final RegistryObject<Item> TEXT_NUGGEST = ITEMS.register("text_nugget",
+    public static final RegistryObject<Item> TEXT_NUGGET = ITEMS.register("text_nugget",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));
 
-    public static final RegistryObject<Item> STYX_NUGGEST = ITEMS.register("styx_nugget",
+    public static final RegistryObject<Item> STYX_NUGGET = ITEMS.register("styx_nugget",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB).fireResistant()));
 
 
@@ -63,26 +63,21 @@ public class ModItem {
 
 
     //武器_剑
-    public static final RegistryObject<Item> THE_SWORD_OF_FIRE = ITEMS.register("the_sword_of_fire",
-            () -> new SwordItem(ModTires.TEXT,2,1.5f,new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));
-
     public static final RegistryObject<Item> EXCALIBUR = ITEMS.register("excalibur",
-            () -> new SwordItem(ModTires.TEXT,7,2.5f,new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));
-
+            () -> new SwordItem(ModTires.TEXT,7,2.5f,
+                    new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));
     public static final RegistryObject<Item> EXCALIBUR_DARK = ITEMS.register("excalibur_dark",
-            () -> new SwordItem(ModTires.TEXT,2,1.5f,new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));
+            () -> new SwordItem(ModTires.TEXT,2,1.5f,
+                    new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));
+    public static final RegistryObject<Item> FIRE_SWORD = ITEMS.register("fire_sword",
+            () -> new SwordItem(ModTires.TEXT,2,1.5f,
+                    new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));
+    public static final RegistryObject<Item> STYX_SWOED = ITEMS.register("styx_sword",
+            () -> new SwordItem(ModTires.TEXT,2,1.5f,
+                    new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));
 
-    //武器_其他
-    public static final RegistryObject<Item> HEPTAGRAM = ITEMS.register("heptagram",
-            () -> new ShootItem(new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB).stacksTo(1)));
 
-    public static final RegistryObject<Item> POWER_OF_FLORA = ITEMS.register("power_of_flora",
-            () -> new ShootItem(new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB).stacksTo(1)));
-
-
-//    public static final RegistryObject<Item> BULLET = ITEMS.register("bulletitem",
-//            () -> new BulletItem(new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));
-
+    //杂物
     public static final RegistryObject<Item> MANAMMO = ITEMS.register("manammo",
             () -> new ManammoItem(new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));
 
@@ -144,6 +139,7 @@ public class ModItem {
 
     public static final RegistryObject<Item> TEXT_BOOTS = ITEMS.register("text_boots",
             ()-> new ArmorItem(ModArmorMaterials.TEXT, EquipmentSlot.FEET,new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));
+
 
     //刷怪蛋
     public static final RegistryObject<Item> BEESOLDIER_SPAWN_EGG = ITEMS.register("beesoldier_spawn_egg",

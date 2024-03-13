@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "triermod:block/text_ore_deepslate"
+    "all": "triermod:block/deepslate_text_ore"
   }
 }

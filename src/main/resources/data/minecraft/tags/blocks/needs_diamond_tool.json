@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-
+    "triermod:styx_ore",
+    "triermod:deepslate_styx_ore",
+    "triermod:styx_block",
+    "triermod:raw_styx_block"
   ]
 }

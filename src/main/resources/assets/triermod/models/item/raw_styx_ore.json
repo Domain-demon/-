@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "triermod:item/raw_sytx_ore"
+    "layer0": "triermod:item/raw_styx_ore"
   }
 }

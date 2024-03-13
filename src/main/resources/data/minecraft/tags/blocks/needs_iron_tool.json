@@ -2,7 +2,8 @@
   "replace": false,
   "values": [
     "triermod:text_ore",
+    "triermod:deepslate_text_ore",
     "triermod:text_block",
-    "triermod:text_ore_deepslate"
+    "triermod:raw_text_block"
   ]
 }

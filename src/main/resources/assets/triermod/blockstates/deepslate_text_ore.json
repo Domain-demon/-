@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "triermod:block/text_ore_deepslate" }
+    "": { "model": "triermod:block/deepslate_text_ore" }
   }
 }
