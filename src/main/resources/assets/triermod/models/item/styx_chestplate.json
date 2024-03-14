@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "triermod:item/legend_helmet"
+    "layer0": "triermod:item/styx_chestplate"
   }
 }

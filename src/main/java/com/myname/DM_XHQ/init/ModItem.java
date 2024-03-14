@@ -1,8 +1,6 @@
 package com.myname.DM_XHQ.init;
 
-import com.myname.DM_XHQ.item.custom.ShootItem;
 import com.myname.DM_XHQ.item.custom.projectile.ManammoItem;
-import com.myname.DM_XHQ.registry.ModArmorMaterial;
 import com.myname.DM_XHQ.registry.ModArmorMaterials;
 import com.myname.DM_XHQ.registry.ModTires;
 import com.myname.DM_XHQ.tabs.ModCreativeModeTab;
@@ -104,17 +102,17 @@ public class ModItem {
 //    public static final RegistryObject<Item> WRAITH_CHESTPLATE = ITEMS.register("wraith_chestplate",
 //            ()-> new ArmorItem(ModArmorMaterial.WRAITH, EquipmentSlot.CHEST,new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));
 //
-    public static final RegistryObject<Item> LEGEND_HELMET = ITEMS.register("legend_helmet",
-            ()-> new ArmorItem(ModArmorMaterials.LEGEND, EquipmentSlot.HEAD,new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));
+    public static final RegistryObject<Item> STYX_HELMET = ITEMS.register("styx_helmet",
+            ()-> new ArmorItem(ModArmorMaterials.STYX, EquipmentSlot.HEAD,new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));
 
-    public static final RegistryObject<Item> LEGEND_CHESTPLATE = ITEMS.register("legend_chestplate",
-            ()-> new ArmorItem(ModArmorMaterials.LEGEND, EquipmentSlot.CHEST,new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));
+    public static final RegistryObject<Item> STYX_CHESTPLATE = ITEMS.register("styx_chestplate",
+            ()-> new ArmorItem(ModArmorMaterials.STYX, EquipmentSlot.CHEST,new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));
 
-    public static final RegistryObject<Item> LEGEND_LEGGINGS = ITEMS.register("legend_leggings",
-            ()-> new ArmorItem(ModArmorMaterials.LEGEND, EquipmentSlot.LEGS,new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));
+    public static final RegistryObject<Item> STYX_LEGGINGS = ITEMS.register("styx_leggings",
+            ()-> new ArmorItem(ModArmorMaterials.STYX, EquipmentSlot.LEGS,new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));
 
-    public static final RegistryObject<Item> LEGEND_BOOTS = ITEMS.register("legend_boots",
-            ()-> new ArmorItem(ModArmorMaterials.LEGEND, EquipmentSlot.FEET,new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));
+    public static final RegistryObject<Item> STYX_BOOTS = ITEMS.register("styx_boots",
+            ()-> new ArmorItem(ModArmorMaterials.STYX, EquipmentSlot.FEET,new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));
 
     public static final RegistryObject<Item> EMPTY_HELMET = ITEMS.register("empty_helmet",
             ()-> new ArmorItem(ModArmorMaterials.EMPTY, EquipmentSlot.HEAD,new Item.Properties().tab(ModCreativeModeTab.TRIER_TAB)));

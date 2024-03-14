@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "triermod:styx_ingot"
+    }
+  },
+  "result": {
+    "item": "triermod:styx_chestplate"
+  }
+}

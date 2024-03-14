@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 10,
+  "experience": 1,
+  "group": "styx",
+  "ingredient": {
+    "item": "triermod:raw_styx_ore"
+  },
+  "result": "triermod:styx_ingot"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    " # ",
+    " * "
+  ],
+  "key": {
+    "#": {
+      "item": "triermod:styx_ingot"
+    },
+    "*": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "triermod:styx_sword"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "triermod:raw_text_ore"
+    }
+  },
+  "result": {
+    "item": "triermod:raw_text_block"
+  }
+}

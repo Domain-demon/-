@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "addition": {
+    "item": "triermod:styx_ingot"
+  },
+  "base": {
+    "item": "minecraft:diamond_axe"
+  },
+  "result": {
+    "item": "triermod:styx_axe"
+  }
+}

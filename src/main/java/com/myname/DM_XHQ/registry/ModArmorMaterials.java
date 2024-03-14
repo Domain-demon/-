@@ -13,8 +13,8 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
 
-    LEGEND("legend", 40, new int[]{4, 7, 9, 4}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.2F, () -> {
-        return Ingredient.of(ModItem.TEXT_INGOT.get());
+    STYX("styx", 40, new int[]{4, 7, 9, 4}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.2F, () -> {
+        return Ingredient.of(ModItem.STYX_INGOT.get());
     }),
 
     EMPTY("empty", 0, new int[]{0, 0, 0, 0}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 0F, 0F, () -> {

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "triermod:raw_styx_block"
+    }
+  ],
+  "result": {
+    "item": "triermod:raw_styx",
+    "count": 9
+  }
+}
