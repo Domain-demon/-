@@ -42,5 +42,6 @@
   "item.triermod.text_ingot": "text ingot",
   "item.triermod.text_leggings": "text leggings",
   "item.triermod.text_nugget": "text nugget",
-  "itemGroup.triertab": "Trier"
+  "itemGroup.triertab": "Trier",
+  "item.triermod.throwable_ball.tip": "Right-click on the block to ignite, right-click on the air to launch"
 }

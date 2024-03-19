@@ -123,6 +123,16 @@ repositories {
         name = 'GeckoLib'
         url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
     }
+
+    maven {
+        url "https://www.cursemaven.com"
+        content {
+            includeGroup "curse.maven"
+        }
+    }
+
+
+
     // If you have mod jar dependencies in ./libs, you can declare them as a repository like so:
      flatDir {
          dir 'libs'
@@ -146,7 +156,11 @@ dependencies {
     implementation fg.deobf("teamcofh:cofh_core:1.19.2-10.3.1.48")
     implementation fg.deobf("noeppinoeppi:LibX:1.19.2-4.2.8")
 //    implementation fg.deobf("towdium:jecharacters:1.19.2-forge-4.5.9")
+    implementation fg.deobf("Snownee:Jade:1.19.1-forge-8.9.2")
 
+    // Visit https://www.curseforge.com/minecraft/mc-mods/jade/files/all?filter-status=1&filter-game-version=2020709689%3A7499
+    // to get the latest version's jade_id
+//    implementation "curse.maven:jade-324717:${jade_id}"
 
 
     implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.19:3.1.40')

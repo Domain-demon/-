@@ -3,25 +3,37 @@ package com.myname.DM_XHQ.init;
 import com.myname.DM_XHQ.TrierMod;
 import com.myname.DM_XHQ.entity.mob.BeeSoldier;
 import com.myname.DM_XHQ.entity.mob.Orc;
+import com.myname.DM_XHQ.entity.projectile.ThrownManammo;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 import static com.myname.DM_XHQ.TrierMod.ENTITY_TYPES;
 
 public class ModEntity {
-//    public static final DeferredRegister<EntityType<?>> ENTITY_TYPES =
-//            DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, TrierMod.MODID);
+
 //
 //    public static void register(IEventBus eventBus) {
 //        ENTITY_TYPES.register(eventBus);
 //    }
 
 
+
+
     public static void register() {
 
     }
+
+    private static <T extends Entity> RegistryObject<EntityType<T>> throwableItem(String name, EntityType.EntityFactory<T> factory) {
+        return ENTITY_TYPES.register("thrown_" + name, () -> (EntityType.Builder.of(factory, MobCategory.MISC).sized(0.25F, 0.25F)
+                .clientTrackingRange(4).updateInterval(10).build(name)));
+    }
+
+
 
 //    public static final RegistryObject<EntityType<Bullet>> BULLET =
 //            ENTITY_TYPES.register("bulletitem", () ->
@@ -43,6 +55,17 @@ public class ModEntity {
 //                    .sized(0.3125F, 0.3125F).clientTrackingRange(4).updateInterval(10));
 
 
+
+    public static final RegistryObject<EntityType<ThrownManammo>> THROWN_MANAMMO = throwableItem("thrown_manammo", ThrownManammo::new);
+
+
+
+
+
+
+
+
+
     public static final RegistryObject<EntityType<BeeSoldier>> BEESOLDIER =
             ENTITY_TYPES.register("beesoldier", () ->
                 EntityType.Builder.of(BeeSoldier::new, MobCategory.MONSTER)
@@ -54,6 +77,7 @@ public class ModEntity {
                     EntityType.Builder.of(Orc::new, MobCategory.MONSTER)
                             .sized(0.4f,1.5f)
                             .build(new ResourceLocation(TrierMod.MODID,"orc").toString()));
+
 
 
 
